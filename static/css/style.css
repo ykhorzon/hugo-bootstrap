@@ -6,3 +6,15 @@
 .blog-post img {
   max-width: 100%;
 }
+
+
+
+.recent-article-list-item {
+  padding: 3px;
+}
+
+.navbar-brand {
+  /* font-family: 'Francois One',sans-serif; */
+  font-family: 'Lobster',cursive;
+  /* font-family: 'Oswald',sans-serif; */
+}

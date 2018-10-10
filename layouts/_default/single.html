@@ -1,9 +1,9 @@
 {{ define "main" }}
 
 <header>
-    <h2 class="blog-post-title">
+    <h1 class="blog-post-title">
         <a class="text-dark" href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
-    </h2>
+    </h1>
     {{ partial "post-date" . }}
     {{ partial "post-tags" . }}
     {{ partial "post-categories" . }}

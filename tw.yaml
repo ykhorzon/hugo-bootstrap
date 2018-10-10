@@ -1,0 +1,29 @@
+- id: by
+  translation: "by"
+
+- id: tags
+  translation: "標籤"
+
+- id: categories
+  translation: "分類"
+
+- id: readMore
+  translation: "閱讀全文 →"
+
+- id: translations
+  translation: "翻譯"
+
+- id: related
+  translation: "See also"
+
+- id: recentPosts
+  translation: "近期文章"
+
+- id: backToTop
+  translation: "Back to top"
+
+- id: language
+  translation: "語言"
+
+- id: thanks
+  translation: "Hugo template made with ❤ by {{.Xzya}}, inspired by {{.HugoThemeBootstrap4Blog}}"
