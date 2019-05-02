@@ -1,8 +1,10 @@
 <article class="blog-post">
     <header>
-        <h2 class="blog-post-title">
-            <a class="text-dark" href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
-        </h2>
+        <h1 class="blog-post-title">
+            ∬ <a class="text-dark" href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+        </h1>
+        <!-- open icon options: ↳∬θ∫ψ♘⇨∮γλ∑✎ -->
+        <hr>
         {{ partial "post-date" . }}
         {{ partial "post-tags" . }}
         {{ partial "post-categories" . }}
@@ -12,5 +14,6 @@
     <p></p>
     <a href="{{ .RelPermalink }}">{{ i18n "readMore" }}</a>
     {{ end }}
+    
 </article>
 
